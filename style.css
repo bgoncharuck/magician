@@ -27,7 +27,7 @@ nav {
 }
 
 .priceButton:hover {
-  color: #9c27b0;
+  color: #6a1b9a;
 }
 
 .languageButton {
@@ -35,7 +35,7 @@ nav {
 }
 
 .languageButton:hover {
-  color: #9c27b0;
+  color: #6a1b9a;
 }
 
 main {
@@ -64,8 +64,8 @@ main {
 }
 
 .contactButton:hover {
-  color: #9c27b0;
-  border: solid 1px #9c27b0;
+  color: #6a1b9a;
+  border: solid 1px #6a1b9a;
 }
 
 footer {
@@ -78,9 +78,9 @@ footer {
 }
 
 .licenceButton:hover {
-  color: #9c27b0;
+  color: #6a1b9a;
 }
 
 .blackListButton:hover {
-  color: #9c27b0;
+  color: #6a1b9a;
 }
