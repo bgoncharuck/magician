@@ -22,7 +22,6 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 18px;
 }
 
 .priceButton {
@@ -36,7 +35,7 @@ nav {
 main {
   background-color: #fafafa;
   color: black;
-  font-size: 26px;
+  font-size: larger;
   width: 100%;
   text-align: center;
   margin-top: 10%;
@@ -59,7 +58,7 @@ main {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: large;
   margin: 4px 2px;
 }
 
