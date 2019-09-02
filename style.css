@@ -63,13 +63,13 @@ main {
   margin-bottom: 4%;
 }
 
-.contactButtons {
+.optionButtons {
   display: flex;
   flex-flow: column;
   width: 100%;
 }
 
-.contactButton {
+.optionButton {
   width: 40%;
   margin: 0 auto;
   margin-bottom: 1%;
@@ -80,7 +80,7 @@ main {
   font-size: large;
 }
 
-.contactButton:hover {
+.optionButton:hover {
   color: #1565c0;
   border: solid 1px #1565c0;
 }
@@ -91,13 +91,8 @@ footer {
   justify-content: space-around;
   width: 100%;
   padding-top: 1%;
-  font-size: smaller;
 }
 
 .licenceButton:hover {
-  color: #1565c0;
-}
-
-.blackListButton:hover {
   color: #1565c0;
 }
