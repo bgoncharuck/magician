@@ -96,3 +96,31 @@ footer {
 .licenceButton:hover {
   color: #1565c0;
 }
+
+.pricesWindow {
+  display: none;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.7);
+  position: fixed;
+}
+
+.pricesArea {
+  margin: 0 auto;
+  width: 100%;
+  background: #fafafa;
+  padding-bottom: 1%;
+}
+
+.pricesArea > p {
+  display: flex;
+  justify-content: space-between;
+  white-space: pre;
+}
+
+.pricesWindowClose {
+  text-align: center;
+}

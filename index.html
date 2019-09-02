@@ -11,15 +11,13 @@
   <link href="icon.png" rel="icon" type="image/png">
   <title>Linux Support</title>
   <link href="style.css" rel="stylesheet" type="text/css" media="all">
-  <script src="scripts.js"></script>
+  <script src="scripts.js" type="text/javascript"></script>
 </head>
 
 <body>
 <header>
 <nav>
-<span class="priceButton" id="priceButton">
-Price
-</span>
+<span class="priceButton" id="priceButton" onclick="showPricesWindow()">Price</span>
 <span class="languageButton" id="languageButton">
 US
 </span>
@@ -55,5 +53,13 @@ Cooperation</div></a>
 <a href="https://github.com/bgoncharuck/magician/blob/master/LICENSE" target="_blank">Licence</a>
 </div>
 </footer>
+<div class="pricesWindow" id="pricesWindow">
+<div class="pricesArea">
+<div class="pricesWindowClose" id="pricesWindowClose" onclick="closePricesWindow()"><h1>X</h1></div>
+<p id="priceConsultation"><span>    Consultation</span><span>0000    </span></p>
+<p id="priceRemoteAccess"><span>    Remote Access</span><span>0000    </span</p>
+<p id="priceDepartureToYourLocation"><span>    Departure To Your Location</span><span>0000    </span></p>
+</div>
+</div>
 </body>
 </html>
