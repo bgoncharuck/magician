@@ -65,6 +65,7 @@ main {
 .contactButton:hover {
   background-color: #ba68c8;
   color: white;
+  border: none;
 }
 
 footer {
