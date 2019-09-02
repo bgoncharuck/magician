@@ -1,14 +1,11 @@
 html {
-  height: 100%;
 }
 
 body {
+  height: 100%;
   margin: 0px;
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 2%;
   font-family: Georgia;
-  background-color: #fafafa;
+  background-color: #eeeeee;
   color: black;
 }
 
@@ -33,51 +30,38 @@ nav {
 }
 
 main {
-  background-color: #fafafa;
-  color: black;
   font-size: larger;
   width: 100%;
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .contactButtons {
   display: flex;
+  flex-flow: column;
   width: 100%;
-  justify-content:  space-around;
 }
 
 .contactButton {
-  background-color: #ab47bc;
-  color: white;
+  margin: 0 auto;
+  border-radius: 15%;
+  margin-bottom: 1%;
+
+  background-color: #ce93d8;
   border: none;
-  border-radius: 50px;
+  padding: 1%;
   color: white;
-  padding: 2%;
   text-align: center;
-  display: inline-block;
   font-size: large;
 }
 
+
 footer {
-  position: absolute;
-  left: 0 ; right: 0; bottom: 0;
-  background-color: #e0e0e0;
   color: #424242;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   width: 100%;
   padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.licenceButton {
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-.blackListButton {
-  margin-left: 1%;
-  margin-right: 1%;
+  font-size: smaller;
 }
