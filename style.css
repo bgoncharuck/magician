@@ -6,6 +6,7 @@ body {
   margin: 0px;
   font-family: Georgia;
   background-color: #eeeeee;
+  background-image: url("wallpaper.png");
   color: black;
 }
 
@@ -26,7 +27,7 @@ nav {
 }
 
 .priceButton:hover {
-  color: #ba68c8;
+  color: #9c27b0;
 }
 
 .languageButton {
@@ -34,7 +35,7 @@ nav {
 }
 
 .languageButton:hover {
-  color: #ba68c8;
+  color: #9c27b0;
 }
 
 main {
@@ -63,9 +64,8 @@ main {
 }
 
 .contactButton:hover {
-  background-color: #ba68c8;
-  color: white;
-  border: none;
+  color: #9c27b0;
+  border: solid 1px #9c27b0;
 }
 
 footer {
@@ -78,9 +78,9 @@ footer {
 }
 
 .licenceButton:hover {
-  color: #ba68c8;
+  color: #9c27b0;
 }
 
 .blackListButton:hover {
-  color: #ba68c8;
+  color: #9c27b0;
 }
