@@ -44,22 +44,20 @@ main {
 
 .contactButtons {
   display: flex;
-  justify-content: center;
   width: 100%;
+  justify-content:  space-around;
 }
 
 .contactButton {
   background-color: #ab47bc;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   color: white;
-  padding: 15px;
+  padding: 2%;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: large;
-  margin: 4px 2px;
 }
 
 footer {
