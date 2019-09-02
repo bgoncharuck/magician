@@ -95,6 +95,18 @@ main {
   border: solid 1px #1565c0;
 }
 
+.inactive_ {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: grey;
+  border: solid 1px grey;
+}
+
+.inactive_:hover, .inactive_:active {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: grey;
+  border: solid 1px grey;
+}
+
 footer {
   position: absolute;
   left: 0 ;
