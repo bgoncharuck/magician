@@ -98,12 +98,11 @@ function languageDropDownMenuClicked() {
 
 // Language Choise
 
-
 function contentFill(language) {
 
 }
 
-var language_choise = "us";
+var language_choise = "uk";
 
 function languageUkranianClicked() {
   languageDropDownMenuClicked();
