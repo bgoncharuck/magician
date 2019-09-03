@@ -8,10 +8,15 @@
 <meta name="author" content="Bogdan Goncharuck">
 
 <head>
-  <link href="icon.png" rel="icon" type="image/png">
+  <link href="images/icon.png" rel="icon" type="image/png">
   <title>Linux Support</title>
   <link href="style.css" rel="stylesheet" type="text/css" media="all">
-  <script src="scripts.js" type="text/javascript"></script>
+  <script src="scripts/functions.js" type="text/javascript"></script>
+  <!-- languages -->
+  <script src="lang/ua.json" type="text/javascript"></script>
+  <script src="lang/us.json" type="text/javascript"></script>
+  <script src="lang/de.json" type="text/javascript"></script>
+  <script src="lang/ru.json" type="text/javascript"></script>
 </head>
 
 <body>
@@ -33,21 +38,19 @@
     I'm a magician who can solve any issue with GNU/Linux distributions.
   </main>
   <section class="optionButtons">
-    <div class="optionButton" id="consultationButton" onclick="consultationOption()">
-      Consultation
+    <div class="optionButton" id="contactsButton" onclick="contactsOption()">Contacts</div>
+    <div class="optionInformation" id="contactsInformation">
+      Test
     </div>
+    <div class="optionButton" id="consultationButton" onclick="consultationOption()">Consultation</div>
     <div class="optionInformation" id="consultationInformation">
       Test
     </div>
-    <div class="optionButton" id="remoteAccessButton" onclick="remoteAccessOption()">
-      Remote Access
-    </div>
+    <div class="optionButton" id="remoteAccessButton" onclick="remoteAccessOption()">Remote Access</div>
     <div class="optionInformation" id="remoteAccessInformation">
       Test
     </div>
-    <div class="optionButton" id="departureButton" onclick="departureOption()">
-      Departure To Your Location
-    </div>
+    <div class="optionButton" id="departureButton" onclick="departureOption()">Departure To Your Location</div>
     <div class="optionInformation" id="departureInformation">
       Test
     </div>
@@ -72,5 +75,6 @@
     </div>
   </div>
 </body>
+<script src="scripts/execute.js" type="text/javascript"></script>
 
 </html>

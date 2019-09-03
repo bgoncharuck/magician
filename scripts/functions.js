@@ -10,6 +10,21 @@ function closePricesWindow() {
 }
 
 // Options Buttons
+
+function contactsOption() {
+  let contactsInformation_el = document.getElementById("contactsInformation");
+  let isDisplayed_prop = contactsInformation_el.style.getPropertyValue("display");
+  if (isDisplayed_prop !== "block") {
+    contactsInformation_el.style.setProperty("display", "block");
+    let contactsButton_el = document.getElementById("contactsButton");
+    contactsButton_el.classList.toggle("optionButtonToggled");
+  } else if (isDisplayed_prop === "block") {
+    contactsInformation_el.style.setProperty("display", "none");
+    let contactsButton_el = document.getElementById("contactsButton");
+    contactsButton_el.classList.remove("optionButtonToggled");
+  }
+}
+
 function consultationOption() {
   let consultationInformation_el = document.getElementById("consultationInformation");
   let isDisplayed_prop = consultationInformation_el.style.getPropertyValue("display");
