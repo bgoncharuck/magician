@@ -21,10 +21,10 @@
       <span class="languageDropDown">
         <span class="languageButton" id="languageButton" onclick="showLanguageOptions()">US</span>
         <div class="languageDropDownMenu" id="languageDropDownMenu">
-          <div class="langButChoi" onclick="languageUkranianClicked()">Українська</div>
-          <div class="langButChoi" onclick="languageEnglishClicked()"><strong>English</strong></div>
-          <div class="langButChoi" onclick="languageGermanClicked()">Deutsch</div>
-          <div class="langButChoi" onclick="languageRussianClicked()">Русский</div>
+          <div class="langButChoi" onclick="languageUkranianClicked()" id="langUkranianButton">Українська</div>
+          <div class="langButChoi" onclick="languageEnglishClicked()" id="langEnglishButton"><strong>English</strong></div>
+          <div class="langButChoi" onclick="languageGermanClicked()" id="langGermanButton">Deutsch</div>
+          <div class="langButChoi" onclick="languageRussianClicked()" id="langRussianButton">Русский</div>
         </div>
       </span>
     </nav>
@@ -33,32 +33,28 @@
     I'm a magician who can solve any issue with GNU/Linux distributions.
   </main>
   <section class="optionButtons">
-    <div class="optionButton">
-      <div class="consultationButton" id="consultationButton">
-        Consultation
-      </div>
+    <div class="optionButton" id="consultationButton" onclick="consultationOption()">
+      Consultation
     </div>
-    <div class="optionButton">
-      <div class="remoteButton" id="remoteButton">
-        Remote Access
-      </div>
+    <div class="optionInformation" id="consultationInformation">
+      Test
     </div>
-    <div class="optionButton">
-      <div class="departureButton" id="departureButton">
-        Departure To Your Location
-      </div>
+    <div class="optionButton" id="remoteAccessButton" onclick="remoteAccessOption()">
+      Remote Access
     </div>
-    <div class="optionButton">
-      <a href="https://bgoncharuck.github.io/busicard/" target="_blank">
-        <div class="workButton" id="workButton">
-          Cooperation</div>
-      </a>
+    <div class="optionInformation" id="remoteAccessInformation">
+      Test
     </div>
-    <div class="optionButton inactive_">
-      <div class="blogButton" id="blogButton">
-        My Blog About *nix [In Progress]
-      </div>
+    <div class="optionButton" id="departureButton" onclick="departureOption()">
+      Departure To Your Location
     </div>
+    <div class="optionInformation" id="departureInformation">
+      Test
+    </div>
+    <a href="https://bgoncharuck.github.io/busicard/" target="_blank">
+      <div class="optionButton" id="cooperationButton">Cooperation</div>
+    </a>
+    <div class="optionButton inactive_" id="blogButton">My Blog About *nix [In Progress]</div>
   </section>
   <footer>
     <div class="licenceButton" id="licenceButton">
