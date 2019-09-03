@@ -15,54 +15,66 @@
 </head>
 
 <body>
-<header>
-<nav>
-<span class="priceButton" id="priceButton" onclick="showPricesWindow()">Price</span>
-<span class="languageButton" id="languageButton">US</span>
-</nav>
-</header>
-<main>
-I'm a magician who can solve any issue with GNU/Linux distributions.
-</main>
-<section class="optionButtons">
-<div class="optionButton">
-<div class="consultationButton" id="consultationButton">
-Consultation
-</div>
-</div>
-<div class="optionButton">
-<div class="remoteButton" id="remoteButton">
-Remote Access
-</div>
-</div>
-<div class="optionButton">
-<div class="departureButton" id="departureButton">
-Departure To Your Location
-</div>
-</div>
-<div class="optionButton">
-<a href="https://bgoncharuck.github.io/busicard/" target="_blank">
-<div class="workButton" id="workButton">
-Cooperation</div></a>
-</div>
-<div class="optionButton inactive_">
-<div class="blogButton" id="blogButton">
-My Blog About *nix [In Progress]
-</div>
-</div>
-</section>
-<footer>
-<div class="licenceButton" id="licenceButton">
-<a href="https://github.com/bgoncharuck/magician/blob/master/LICENSE" target="_blank">Licence</a>
-</div>
-</footer>
-<div class="pricesWindow" id="pricesWindow">
-<div class="pricesArea">
-<div class="pricesWindowClose" id="pricesWindowClose" onclick="closePricesWindow()"><h1>X</h1></div>
-<p id="priceConsultation"><span id="priceConsultationText">    Consultation</span><span>Contract    </span></p>
-<p id="priceRemoteAccess"><span id="priceRemoteAccessText">    Remote Access</span><span>Contract    </span</p>
-<p id="priceDepartureToYourLocation"><span id="priceDepartureToYourLocationText">    Departure To Your Location</span><span>Contract    </span></p>
-</div>
-</div>
+  <header>
+    <nav>
+      <span class="priceButton" id="priceButton" onclick="showPricesWindow()">Price</span>
+      <span class="languageDropDown">
+        <span class="languageButton" id="languageButton" onclick="showLanguageOptions()">US</span>
+        <div class="languageDropDownMenu" id="languageDropDownMenu">
+          <a onclick="languageUkranianClicked()">Українська</a>
+          <a onclick="languageEnglishClicked()"><strong>English</strong></a>
+          <a onclick="languageGermanClicked()">Deutsch</a>
+          <a onclick="languageRussianClicked()">Русский</a>
+        </div>
+      </span>
+    </nav>
+  </header>
+  <main>
+    I'm a magician who can solve any issue with GNU/Linux distributions.
+  </main>
+  <section class="optionButtons">
+    <div class="optionButton">
+      <div class="consultationButton" id="consultationButton">
+        Consultation
+      </div>
+    </div>
+    <div class="optionButton">
+      <div class="remoteButton" id="remoteButton">
+        Remote Access
+      </div>
+    </div>
+    <div class="optionButton">
+      <div class="departureButton" id="departureButton">
+        Departure To Your Location
+      </div>
+    </div>
+    <div class="optionButton">
+      <a href="https://bgoncharuck.github.io/busicard/" target="_blank">
+        <div class="workButton" id="workButton">
+          Cooperation</div>
+      </a>
+    </div>
+    <div class="optionButton inactive_">
+      <div class="blogButton" id="blogButton">
+        My Blog About *nix [In Progress]
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="licenceButton" id="licenceButton">
+      <a href="https://github.com/bgoncharuck/magician/blob/master/LICENSE" target="_blank">Licence</a>
+    </div>
+  </footer>
+  <div class="pricesWindow" id="pricesWindow">
+    <div class="pricesArea">
+      <div class="pricesWindowClose" id="pricesWindowClose" onclick="closePricesWindow()">
+        <h1>X</h1>
+      </div>
+      <p id="priceConsultation"><span id="priceConsultationText"> Consultation</span><span>Contract </span></p>
+      <p id="priceRemoteAccess"><span id="priceRemoteAccessText"> Remote Access</span><span>Contract </span</p> <p id="priceDepartureToYourLocation"><span id="priceDepartureToYourLocationText"> Departure To Your Location</span><span>Contract </span>
+      </p>
+    </div>
+  </div>
 </body>
+
 </html>
