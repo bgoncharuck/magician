@@ -67,6 +67,20 @@ function departureOption() {
   }
 }
 
+function writeScriptOption() {
+  let writeScriptInformation_el = document.getElementById("writeScriptInformation");
+  let isDisplayed_prop = writeScriptInformation_el.style.getPropertyValue("display");
+  if (isDisplayed_prop !== "block") {
+    writeScriptInformation_el.style.setProperty("display", "block");
+    let writeScriptButton_el = document.getElementById("writeScriptButton");
+    writeScriptButton_el.classList.toggle("optionButtonToggled");
+  } else if (isDisplayed_prop === "block") {
+    writeScriptInformation_el.style.setProperty("display", "none");
+    let writeScriptButton_el = document.getElementById("writeScriptButton");
+    writeScriptButton_el.classList.remove("optionButtonToggled");
+  }
+}
+
 // Language Button
 function showLanguageOptions() {
   let languageDropDownMenu_el = document.getElementById("languageDropDownMenu");
@@ -83,6 +97,10 @@ function languageDropDownMenuClicked() {
 }
 
 // Language Choise
+
+function contentFill(language) {
+
+}
 
 function languageUkranianClicked() {
   languageDropDownMenuClicked();
