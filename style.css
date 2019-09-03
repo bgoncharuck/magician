@@ -165,21 +165,23 @@ footer {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
 }
 
 .pricesArea {
   margin: 0 auto;
-  width: 100%;
-  background: #fafafa;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.9);
   padding-bottom: 1%;
 }
 
 .pricesArea>p {
   display: flex;
-  justify-content: space-between;
-  white-space: pre;
+  justify-content: center;
+}
+
+.pricesArea>p>span {
+  margin: 1%;
 }
 
 .pricesWindowClose {

@@ -100,6 +100,10 @@ function languageDropDownMenuClicked() {
 
 function contentFill(language) {
 
+  // declaration
+  
+  // set
+
 }
 
 var language_choise = "uk";
