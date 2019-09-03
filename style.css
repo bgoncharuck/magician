@@ -113,7 +113,8 @@ main {
 
 .optionButton:hover, .optionButton:active, .optionButton:focus, .optionButtonToggled {
   color: #1565c0;
-  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.6);
   border: solid 1px #1565c0;
 }
 
@@ -122,9 +123,9 @@ main {
   margin: 0 auto;
   /* margin-top: 0.5%; */
   width: 84%;
-  font-size: large;
+  font-size: larger;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 8px 16px -6px black;
   padding-top: 1%;
   padding-bottom: 1%;
