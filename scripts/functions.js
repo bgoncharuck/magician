@@ -98,22 +98,121 @@ function languageDropDownMenuClicked() {
 
 // Language Choise
 
+
 function contentFill(language) {
 
 }
 
+var language_choise = "us";
+
 function languageUkranianClicked() {
   languageDropDownMenuClicked();
+  if (language_choise !== "ua") {
+
+    switch (language_choise) {
+      case "us":
+      default:
+        let langEnglishButton_el = document.getElementById("langEnglishButton");
+        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "ru":
+        let langRussianButton_el = document.getElementById("langRussianButton");
+        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "de":
+        let langGermanButton_el = document.getElementById("langGermanButton");
+        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        break;
+    }
+
+    language_choise = "ua";
+    let langUkranianButton_el = document.getElementById("langUkranianButton");
+    langUkranianButton_el.style.setProperty("font-weight:", "bold");
+
+    contentFill(language_ukranian);
+  }
 }
 
 function languageEnglishClicked() {
   languageDropDownMenuClicked();
+  if (language_choise !== "us") {
+
+    switch (language_choise) {
+      case "ua":
+      default:
+        let langUkranianButton_el = document.getElementById("langUkranianButton");
+        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "ru":
+        let langRussianButton_el = document.getElementById("langRussianButton");
+        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "de":
+        let langGermanButton_el = document.getElementById("langGermanButton");
+        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        break;
+    }
+
+    language_choise = "us";
+    let langEnglishButton_el = document.getElementById("langEnglishButton");
+    langEnglishButton_el.style.setProperty("font-weight:", "bold");
+
+    contentFill(language_english);
+  }
 }
 
 function languageGermanClicked() {
   languageDropDownMenuClicked();
+  if (language_choise !== "de") {
+
+    switch (language_choise) {
+      case "us":
+      default:
+        let langEnglishButton_el = document.getElementById("langEnglishButton");
+        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "ru":
+        let langRussianButton_el = document.getElementById("langRussianButton");
+        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "ua":
+        let langUkranianButton_el = document.getElementById("langUkranianButton");
+        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+    }
+
+    language_choise = "de";
+    let langGermanButton_el = document.getElementById("langGermanButton");
+    langGermanButton_el.style.setProperty("font-weight:", "bold");
+
+    contentFill(language_german);
+  }
 }
 
 function languageRussianClicked() {
   languageDropDownMenuClicked();
+  if (language_choise !== "ru") {
+
+    switch (language_choise) {
+      case "us":
+      default:
+        let langEnglishButton_el = document.getElementById("langEnglishButton");
+        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "ua":
+        let langUkranianButton_el = document.getElementById("langUkranianButton");
+        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        break;
+      case "de":
+        let langGermanButton_el = document.getElementById("langGermanButton");
+        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        break;
+    }
+
+    language_choise = "ru";
+    let langRussianButton_el = document.getElementById("langRussianButton");
+    langRussianButton_el.style.setProperty("font-weight:", "bold");
+
+    contentFill(language_russian);
+  }
 }
