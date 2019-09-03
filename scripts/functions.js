@@ -113,21 +113,21 @@ function languageUkranianClicked() {
       case "us":
       default:
         let langEnglishButton_el = document.getElementById("langEnglishButton");
-        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        langEnglishButton_el.innerHTML = "English";
         break;
       case "ru":
         let langRussianButton_el = document.getElementById("langRussianButton");
-        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        langRussianButton_el.innerHTML = "Русский";
         break;
       case "de":
         let langGermanButton_el = document.getElementById("langGermanButton");
-        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        langGermanButton_el.innerHTML = "Deutsch";
         break;
     }
 
     language_choise = "ua";
     let langUkranianButton_el = document.getElementById("langUkranianButton");
-    langUkranianButton_el.style.setProperty("font-weight:", "bold");
+    langUkranianButton_el.innerHTML = "<strong>Українська</strong>";
 
     contentFill(language_ukranian);
   }
@@ -141,21 +141,21 @@ function languageEnglishClicked() {
       case "ua":
       default:
         let langUkranianButton_el = document.getElementById("langUkranianButton");
-        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        langUkranianButton_el.innerHTML = "Українська";
         break;
       case "ru":
         let langRussianButton_el = document.getElementById("langRussianButton");
-        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        langRussianButton_el.innerHTML = "Русский";
         break;
       case "de":
         let langGermanButton_el = document.getElementById("langGermanButton");
-        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        langGermanButton_el.innerHTML = "Deutsch";
         break;
     }
 
     language_choise = "us";
     let langEnglishButton_el = document.getElementById("langEnglishButton");
-    langEnglishButton_el.style.setProperty("font-weight:", "bold");
+    langEnglishButton_el.innerHTML = "<strong>English</strong>";
 
     contentFill(language_english);
   }
@@ -169,21 +169,21 @@ function languageGermanClicked() {
       case "us":
       default:
         let langEnglishButton_el = document.getElementById("langEnglishButton");
-        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        langEnglishButton_el.innerHTML = "English";
         break;
       case "ru":
         let langRussianButton_el = document.getElementById("langRussianButton");
-        langRussianButton_el.style.setProperty("font-weight:", "normal");
+        langRussianButton_el.innerHTML = "Русский";
         break;
       case "ua":
         let langUkranianButton_el = document.getElementById("langUkranianButton");
-        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        langUkranianButton_el.innerHTML = "Українська";
         break;
     }
 
     language_choise = "de";
     let langGermanButton_el = document.getElementById("langGermanButton");
-    langGermanButton_el.style.setProperty("font-weight:", "bold");
+    langGermanButton_el.innerHTML = "<strong>Deutsch</strong>";
 
     contentFill(language_german);
   }
@@ -197,21 +197,21 @@ function languageRussianClicked() {
       case "us":
       default:
         let langEnglishButton_el = document.getElementById("langEnglishButton");
-        langEnglishButton_el.style.setProperty("font-weight:", "normal");
+        langEnglishButton_el.innerHTML = "English";
         break;
       case "ua":
         let langUkranianButton_el = document.getElementById("langUkranianButton");
-        langUkranianButton_el.style.setProperty("font-weight:", "normal");
+        langUkranianButton_el.innerHTML = "Українська";
         break;
       case "de":
         let langGermanButton_el = document.getElementById("langGermanButton");
-        langGermanButton_el.style.setProperty("font-weight:", "normal");
+        langGermanButton_el.innerHTML = "Deutsch";
         break;
     }
 
     language_choise = "ru";
     let langRussianButton_el = document.getElementById("langRussianButton");
-    langRussianButton_el.style.setProperty("font-weight:", "bold");
+    langRussianButton_el.innerHTML = "<strong>Русский</strong>";
 
     contentFill(language_russian);
   }

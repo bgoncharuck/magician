@@ -1,2 +1,3 @@
-contentFill(language_english);
+language_choise = "uk";
+languageEnglishClicked();
 contactsOption();
