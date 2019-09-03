@@ -1,11 +1,4 @@
-html {
-  height: 100%;
-}
-
 body {
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 1%;
   margin: 0px;
   font-family: Georgia;
   background-color: #eeeeee;
@@ -113,7 +106,7 @@ main {
   margin: 0 auto;
   margin-top: 1%;
   border: solid 1px black;
-  padding: 1%;
+  padding: 2%;
   text-align: center;
   cursor: pointer;
 }
@@ -150,10 +143,6 @@ main {
 }
 
 footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
   color: #424242;
   display: flex;
   justify-content: space-around;
