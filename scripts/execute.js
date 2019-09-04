@@ -1,2 +1,2 @@
-languageEnglishClicked();
+languageUkranianClicked();
 contactsOption();

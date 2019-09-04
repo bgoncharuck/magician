@@ -101,12 +101,50 @@ function languageDropDownMenuClicked() {
 function contentFill(language) {
 
   // declaration
-  
+  let priceButton_el = document.getElementById("priceButton");
+  let languageButton_el = document.getElementById("languageButton");
+  let mainText_el = document.getElementById("mainText");
+  let contactsButton_el = document.getElementById("contactsButton");
+  let contactsInformation_el = document.getElementById("contactsInformation");
+  let consultationButton_el = document.getElementById("consultationButton");
+  let consultationInformation_el = document.getElementById("consultationInformation");
+  let writeScriptButton_el = document.getElementById("writeScriptButton");
+  let writeScriptInformation_el = document.getElementById("writeScriptInformation");
+  let blogButton_el = document.getElementById("blogButton");
+  let remoteAccessButton_el = document.getElementById("remoteAccessButton");
+  let remoteAccessInformation_el = document.getElementById("remoteAccessInformation");
+  let departureButton_el = document.getElementById("departureButton");
+  let departureInformation_el = document.getElementById("departureInformation");
+  let cooperationButton_el = document.getElementById("cooperationButton");
+  let licenceButton_el = document.getElementById("licenceButton");
+  let priceConsultationText_el = document.getElementById("priceConsultationText");
+  let priceRemoteAccessText_el = document.getElementById("priceRemoteAccessText");
+  let priceDepartureToYourLocationText_el = document.getElementById("priceDepartureToYourLocationText");
+  let priceHourText_el = document.getElementById("priceHourText");
   // set
-
+  priceButton_el.innerHTML = language.priceButton;
+  languageButton_el.innerHTML = language.languageButton;
+  mainText_el.innerHTML = language.mainText;
+  contactsButton_el.innerHTML = language.contactsButton;
+  contactsInformation_el.innerHTML = language.contactsInformation;
+  consultationButton_el.innerHTML = language.consultationButton;
+  consultationInformation_el.innerHTML = language.consultationInformation;
+  writeScriptButton_el.innerHTML = language.writeScriptButton;
+  writeScriptInformation_el.innerHTML = language.writeScriptInformation;
+  blogButton_el.innerHTML = language.blogButton;
+  remoteAccessButton_el.innerHTML = language.remoteAccessButton;
+  remoteAccessInformation_el.innerHTML = language.remoteAccessInformation;
+  departureButton_el.innerHTML = language.departureButton;
+  departureInformation_el.innerHTML = language.departureInformation;
+  cooperationButton_el.innerHTML = language.cooperationButton;
+  licenceButton_el.innerHTML = language.licenceButton;
+  priceConsultationText_el.innerHTML = language.priceConsultationText;
+  priceRemoteAccessText_el.innerHTML = language.priceRemoteAccessText;
+  priceDepartureToYourLocationText_el.innerHTML = language.priceDepartureToYourLocationText;
+  priceHourText_el.innerHTML = language.priceHourText;
 }
 
-var language_choise = "uk";
+var language_choise = "None";
 
 function languageUkranianClicked() {
   languageDropDownMenuClicked();

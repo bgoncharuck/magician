@@ -1,3 +1,22 @@
 let language_german = {
-
+"priceButton": "None",
+"languageButton": "None",
+"mainText": "None",
+"contactsButton": "None",
+"contactsInformation": "None",
+"consultationButton": "None",
+"consultationInformation": "None",
+"writeScriptButton": "None",
+"writeScriptInformation": "None",
+"blogButton": "None",
+"remoteAccessButton": "None",
+"remoteAccessInformation": "None",
+"departureButton": "None",
+"departureInformation": "None",
+"cooperationButton": "None",
+"licenceButton": "None",
+"priceConsultationText": "None",
+"priceRemoteAccessText": "None",
+"priceDepartureToYourLocationText": "None",
+"priceHourText": "None"
 };

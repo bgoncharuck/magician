@@ -23,9 +23,9 @@
 <body>
   <header>
     <nav>
-      <span class="priceButton" id="priceButton" onclick="showPricesWindow()">Price</span>
+      <span class="priceButton" id="priceButton" onclick="showPricesWindow()"></span>
       <span class="languageDropDown">
-        <span class="languageButton" id="languageButton" onclick="showLanguageOptions()">US</span>
+        <span class="languageButton" id="languageButton" onclick="showLanguageOptions()"></span>
         <div class="languageDropDownMenu" id="languageDropDownMenu">
           <div class="langButChoi" onclick="languageUkranianClicked()" id="langUkranianButton">Українська</div>
           <div class="langButChoi" onclick="languageEnglishClicked()" id="langEnglishButton">English</div>
@@ -35,38 +35,26 @@
       </span>
     </nav>
   </header>
-  <main>
-    I'm a magician who can solve any issue with GNU/Linux distributions.
-  </main>
+  <main id="mainText"></main>
   <section class="optionButtons">
-    <div class="optionButton" id="contactsButton" onclick="contactsOption()">Contacts</div>
-    <div class="optionInformation" id="contactsInformation">
-      Test
-    </div>
-    <div class="optionButton" id="consultationButton" onclick="consultationOption()">Consultation</div>
-    <div class="optionInformation" id="consultationInformation">
-      Test
-    </div>
-    <div class="optionButton" id="writeScriptButton" onclick="writeScriptOption()">Write A Script</div>
-    <div class="optionInformation" id="writeScriptInformation">
-      Test
-    </div>
-    <div class="optionButton inactive_" id="blogButton">My Blog About *nix [In Progress]</div>
-    <div class="optionButton" id="remoteAccessButton" onclick="remoteAccessOption()">Remote Access</div>
-    <div class="optionInformation" id="remoteAccessInformation">
-      Test
-    </div>
-    <div class="optionButton" id="departureButton" onclick="departureOption()">Departure To Your Location</div>
-    <div class="optionInformation" id="departureInformation">
-      Test
-    </div>
+    <div class="optionButton" id="contactsButton" onclick="contactsOption()"></div>
+    <div class="optionInformation" id="contactsInformation"></div>
+    <div class="optionButton" id="consultationButton" onclick="consultationOption()"></div>
+    <div class="optionInformation" id="consultationInformation"></div>
+    <div class="optionButton" id="writeScriptButton" onclick="writeScriptOption()"></div>
+    <div class="optionInformation" id="writeScriptInformation"></div>
+    <div class="optionButton inactive_" id="blogButton"></div>
+    <div class="optionButton" id="remoteAccessButton" onclick="remoteAccessOption()"></div>
+    <div class="optionInformation" id="remoteAccessInformation"></div>
+    <div class="optionButton" id="departureButton" onclick="departureOption()"></div>
+    <div class="optionInformation" id="departureInformation"></div>
     <a href="https://bgoncharuck.github.io/busicard/" target="_blank">
-      <div class="optionButton" id="cooperationButton">Cooperation</div>
+      <div class="optionButton" id="cooperationButton"></div>
     </a>
   </section>
   <footer>
     <div class="licenceButton" id="licenceButton">
-      <a href="https://github.com/bgoncharuck/magician/blob/master/LICENSE" target="_blank">Licence</a>
+      <a href="https://github.com/bgoncharuck/magician/blob/master/LICENSE" target="_blank"></a>
     </div>
   </footer>
   <div class="pricesWindow" id="pricesWindow">
@@ -74,10 +62,10 @@
       <div class="pricesWindowClose" id="pricesWindowClose" onclick="closePricesWindow()">
         <h1>X</h1>
       </div>
-      <p><span id="priceConsultationText">Consultation</span><span id="priceConsultationCost">200 UAH</span></p>
-      <p><span id="priceRemoteAccessText">Remote Access</span><span id="priceRemoteAccessCost">100 UAH</span</p>
-      <p><span id="priceDepartureToYourLocationText">Departure To Your Location</span><span id="priceDepartureCost">400 UAH</span></p>
-      <p><span id="priceHourText">Per Hour</span><span id="priceHourCost">100 UAH</span</p>
+      <p><span id="priceConsultationText"></span><span id="priceConsultationCost">200 UAH</span></p>
+      <p><span id="priceRemoteAccessText"></span><span id="priceRemoteAccessCost">100 UAH</span</p>
+      <p><span id="priceDepartureToYourLocationText"></span><span id="priceDepartureCost">400 UAH</span></p>
+      <p><span id="priceHourText"></span><span id="priceHourCost">100 UAH</span</p>
     </div>
   </div>
 </body>

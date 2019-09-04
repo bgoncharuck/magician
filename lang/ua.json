@@ -1,3 +1,22 @@
 let language_ukranian = {
-
+  "priceButton": "Ціни",
+  "languageButton": "UA",
+  "mainText": "Я чародій, який вирішує проблеми із дистрибутивами GNU/Linux.",
+  "contactsButton": "Контакти",
+  "contactsInformation": "Мій <a href='https://telegram.me/danHoncharuck' target='_blank'>Telegram</a>: @danHoncharuk.<br>Моя <a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>Пошта</a>: bogdan.goncharuck@gmail.com.<br>Мій <a href='tel:+380680123457'>Телефон</a>: +38 068 0123457.",
+  "consultationButton": "Консультація",
+  "consultationInformation": "Я можу проконсультувати вас онлайн щодо певної проблеми із дистрибутивом у домовлений час. Коли домовляєтесь, вкажіть будь ласка тематику або назву проблеми. Аванс 30%, повна оплата після вирішення проблеми. У блозі є статті про вирішення нетривіальних проблем та поради. З часом кількість статтей буде зростати. ",
+  "writeScriptButton": "Написати Скрипт",
+  "writeScriptInformation": "Я можу написати скрипт під замовлення. Зазвичай використовую Perl та Bash.",
+  "blogButton": "Мій Блог Про *nix [В Розробці]",
+  "remoteAccessButton": "Віддалений Доступ",
+  "remoteAccessInformation": "Я можу вирішити вашу проблему через віддалене керування системою. Ви можете запропонувати свій варіант, мені найзручніше через SSH чи TeamViewer. Аванс 30%, повна оплата після вирішення проблеми.",
+  "departureButton": "Виїзд",
+  "departureInformation": "Я можу приїхати і вирішити проблему у вас в серверній чи вдома. Аванс 30%, ви оплачуєте дорогу і витрачений мною час після вирішення проблеми.",
+  "cooperationButton": "Працювати З Вами",
+  "licenceButton": "Ліцензія",
+  "priceConsultationText": "Консультація",
+  "priceRemoteAccessText": "Віддалений доступ",
+  "priceDepartureToYourLocationText": "Виїзд",
+  "priceHourText": "Година"
 };
