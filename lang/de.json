@@ -1,4 +1,5 @@
 let language_german = {
+"title" : "Linuxapfelsaft",
 "priceButton": "Preis",
 "languageButton": "DE",
 "mainText": "Ich bin ein Magier, der Probleme mit GNU/Linux distributionen lösen.",
@@ -11,7 +12,7 @@ let language_german = {
 "blogButton": "Mein Blog über *nix [In Entwicklung]",
 "remoteAccessButton": "Fernzugriff",
 "remoteAccessInformation": "Ich kann das Problem durch Fernbedienung des Systems lösen. Sie können Ihre Option anbieten. Es ist für mich bequemer, SSH oder TeamViewer zu verwenden. Vorauszahlung 30%, volle Zahlung nach der Lösung des Problems.",
-"departureButton": "Abfahrt zu Ihrem Standort",
+"departureButton": "Abfahrt zu dir",
 "departureInformation": "Ich kann kommen und das Problem in Ihrem Serverraum oder zu Hause lösen. Voraus 30%, Sie zahlen die Straße und die Zeit, die ich nach der Lösung des Problems verbracht habe.",
 "cooperationButton": "Zusammenarbeit",
 "licenceButton": "Lizenzs",

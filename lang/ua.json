@@ -1,4 +1,5 @@
 let language_ukranian = {
+  "title" : "Вареники З Пінгвіна",
   "priceButton": "Ціни",
   "languageButton": "UA",
   "mainText": "Я чародій, який вирішує проблеми із дистрибутивами GNU/Linux.",

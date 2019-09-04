@@ -1,4 +1,5 @@
 let language_english = {
+"title": "Linux Milk Tea Support",
 "priceButton": "Prices",
 "languageButton": "US",
 "mainText": "I'm a magician who can solve issues with GNU/Linux distributions.",
@@ -11,9 +12,9 @@ let language_english = {
 "blogButton": "My Blog About *nix [In Progress]",
 "remoteAccessButton": "Remote Access",
 "remoteAccessInformation": "I can solve the problem through remote control of the system. You can offer your option, it’s more convenient for me to use SSH or TeamViewer. Advance 30%, full payment after solving the problem.",
-"departureButton": "Departure To Your Location",
+"departureButton": "Departure To You",
 "departureInformation": "I can come and solve the problem in your server room or at home. Advance 30%, you pay the road and the time I spent after solving the problem.",
-"cooperationButton": "Cooperation",
+"cooperationButton": "Partnership",
 "licenceButton": "Licence",
 "priceConsultationText": "Consultation",
 "priceRemoteAccessText": "Remote Access",

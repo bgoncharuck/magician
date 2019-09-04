@@ -122,6 +122,7 @@ function contentFill(language) {
   let priceDepartureToYourLocationText_el = document.getElementById("priceDepartureToYourLocationText");
   let priceHourText_el = document.getElementById("priceHourText");
   // set
+  document.title = language.title;
   priceButton_el.innerHTML = language.priceButton;
   languageButton_el.innerHTML = language.languageButton;
   mainText_el.innerHTML = language.mainText;

@@ -1,4 +1,5 @@
 let language_russian = {
+"title" : "Магические Услуги",
 "priceButton": "Цены",
 "languageButton": "RU",
 "mainText": "Я волшебник, который решает проблемы с дистрибутивами GNU/Linux.",
