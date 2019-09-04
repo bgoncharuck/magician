@@ -13,7 +13,7 @@ let language_ukranian = {
   "remoteAccessInformation": "Я можу вирішити вашу проблему через віддалене керування системою. Ви можете запропонувати свій варіант, мені найзручніше через SSH чи TeamViewer. Аванс 30%, повна оплата після вирішення проблеми.",
   "departureButton": "Виїзд",
   "departureInformation": "Я можу приїхати і вирішити проблему у вас в серверній чи вдома. Аванс 30%, ви оплачуєте дорогу і витрачений мною час після вирішення проблеми.",
-  "cooperationButton": "Працювати З Вами",
+  "cooperationButton": "Працювати з Вами",
   "licenceButton": "Ліцензія",
   "priceConsultationText": "Консультація",
   "priceRemoteAccessText": "Віддалений доступ",
