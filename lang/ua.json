@@ -3,7 +3,7 @@ let language_ukranian = {
   "languageButton": "UA",
   "mainText": "Я чародій, який вирішує проблеми із дистрибутивами GNU/Linux.",
   "contactsButton": "Контакти",
-  "contactsInformation": "<a href='https://telegram.me/danHoncharuck' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>Пошта</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Телефон</a>: +38 068 0123457.",
+  "contactsInformation": "<a href='https://telegram.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>Пошта</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Телефон</a>: +38 068 0123457.",
   "consultationButton": "Консультація",
   "consultationInformation": "Консультую онлайн щодо певної проблеми із дистрибутивом у домовлений час. Коли домовляєтесь, вкажіть будь ласка тематику або назву проблеми. Аванс 30%, повна оплата після вирішення проблеми. У блозі є статті про вирішення нетривіальних проблем та поради. З часом кількість статтей буде зростати. ",
   "writeScriptButton": "Написати Скрипт",
