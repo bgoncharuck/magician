@@ -3,7 +3,7 @@ let language_english = {
 "languageButton": "US",
 "mainText": "I'm a magician who can solve issues with GNU/Linux distributions.",
 "contactsButton": "Contacts",
-"contactsInformation": "<a href='https://telegram.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>E-mail</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Phone</a>: +38 068 0123457.",
+"contactsInformation": "<a href='https://t.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>E-mail</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Phone</a>: +38 068 0123457.",
 "consultationButton": "Consultation",
 "consultationInformation": "I can consult you online on a specific distribution problem at the agreed time. When agreeing, please indicate the subject or name of the problem. Advance 30%, full payment after solving the problem. The blog has articles on solving non-trivial problems and tips. Over time, the number of articles will increase.",
 "writeScriptButton": "Write A Script",
