@@ -121,10 +121,11 @@ main {
   width: 94%;
   margin: 0 auto;
   margin-top: 1%;
-  border: solid 1px white;
   padding: 2%;
   text-align: center;
   cursor: pointer;
+  box-shadow: 1px 1px 5px 1px black;
+  background-color: rgba(33, 33, 33, 0.5);
 }
 
 .optionButton:hover, .optionButton:active, .optionButton:focus, .optionButtonToggled {
