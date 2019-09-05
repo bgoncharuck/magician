@@ -2,8 +2,8 @@ body {
   margin: 0px;
   font-family: Georgia;
   background-color: #eeeeee;
-  background-image: url("images/wallpaper.jpg");
-  color: black;
+  background-image: url("images/wallpaper_2.jpg");
+  color: white;
 }
 
 a {
@@ -27,9 +27,10 @@ a:active {
 }
 
 header {
+  color: white;
   margin: 1%;
   padding-bottom: 1%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 nav {
@@ -44,15 +45,14 @@ nav {
 }
 
 .priceButton:hover, .priceButton:active, .priceButton:focus, .priceButtonToggled {
-  color: #1565c0;
+  color: #ce93d8;
 }
 
 .pricesArea {
   display: none;
   margin: 0 auto;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0px 8px 16px -6px black;
+  width: 98%;
+  border-bottom: 1px solid white;
 }
 
 .pricesArea>p {
@@ -75,7 +75,7 @@ nav {
 }
 
 .languageButton:hover, .languageButton:active, .languageButton:focus {
-  color: #1565c0;
+  color: #ce93d8;
 }
 
 .languageDropDownMenu {
@@ -84,23 +84,22 @@ nav {
   position: absolute;
   top: 2%;
   right: 2%;
-  background-color: #fafafa;
-  box-shadow: 1px 1px 5px 1px #1565c0;
-  opacity: 0.9;
+  background-color: #212121;
+  box-shadow: 1px 1px 5px 1px black;
   min-width: 100px;
   text-align: center;
   z-index: 1;
 }
 
 .languageDropDownMenu>.langButChoi {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .languageDropDownMenu>.langButChoi:hover, .langButChoi:active, .langButChoi:focus {
-  color: #1565c0;
+  color: #ce93d8;
   cursor: pointer;
 }
 
@@ -122,16 +121,17 @@ main {
   width: 94%;
   margin: 0 auto;
   margin-top: 1%;
-  border: solid 1px black;
+  border: solid 1px white;
   padding: 2%;
   text-align: center;
   cursor: pointer;
 }
 
 .optionButton:hover, .optionButton:active, .optionButton:focus, .optionButtonToggled {
-  color: #1565c0;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid 1px #1565c0;
+  color: #ce93d8;
+  background-color: #212121;
+  box-shadow: 1px 1px 5px 1px black;
+  border: none;
 }
 
 .optionInformation {
@@ -139,19 +139,19 @@ main {
   margin: 0 auto;
   width: 94%;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(33, 33, 33, 0.7);
   box-shadow: 0px 8px 16px -6px black;
   padding: 2%;
 }
 
 .inactive_ {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #212121;
   color: grey;
-  border: solid 1px grey;
+  border: none;
 }
 
 .inactive_:hover, .inactive_:active, .inactive_:focus {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #212121;
   color: grey;
   border: solid 1px grey;
 }
@@ -165,9 +165,10 @@ footer {
 }
 
 .licenceButton {
+  color: white;
   cursor: pointer;
 }
 
 .licenceButton:hover, .licenceButton:active, .licenceButton:focus {
-  color: #1565c0;
+  color: #ce93d8;
 }
