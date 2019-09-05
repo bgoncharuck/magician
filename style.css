@@ -153,5 +153,10 @@ main {
 .inactive_:hover, .inactive_:active, .inactive_:focus {
   background-color: #212121;
   color: grey;
-  border: solid 1px grey;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 5%;
 }
