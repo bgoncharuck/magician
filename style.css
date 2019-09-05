@@ -2,7 +2,7 @@ body {
   margin: 0px;
   font-family: Georgia;
   background-color: #eeeeee;
-  background-image: url("images/wallpaper_2.jpg");
+  background-image: url("images/wallpaper.jpg");
   color: white;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 .priceButton:hover, .priceButton:active, .priceButton:focus, .priceButtonToggled {
-  color: #ce93d8;
+  color: #ff9800;
 }
 
 .pricesArea {
@@ -75,7 +75,7 @@ nav {
 }
 
 .languageButton:hover, .languageButton:active, .languageButton:focus {
-  color: #ce93d8;
+  color: #ff9800;
 }
 
 .languageDropDownMenu {
@@ -99,7 +99,7 @@ nav {
 }
 
 .languageDropDownMenu>.langButChoi:hover, .langButChoi:active, .langButChoi:focus {
-  color: #ce93d8;
+  color: #ff9800;
   cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ main {
 }
 
 .optionButton:hover, .optionButton:active, .optionButton:focus, .optionButtonToggled {
-  color: #ce93d8;
+  color: #ff9800;
   background-color: #212121;
   box-shadow: 1px 1px 5px 1px black;
   border: none;
