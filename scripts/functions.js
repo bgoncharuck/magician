@@ -1,12 +1,16 @@
 // Prices Window
-function showPricesWindow() {
-  let pricesWindow_el = document.getElementById("pricesWindow");
-  pricesWindow_el.style.setProperty("display", "block");
-}
-
-function closePricesWindow() {
-  let pricesWindow_el = document.getElementById("pricesWindow");
-  pricesWindow_el.style.setProperty("display", "none");
+function pricesArea() {
+  let pricesArea_el = document.getElementById("pricesArea");
+  let isDisplayed_prop = pricesArea_el.style.getPropertyValue("display");
+  if (isDisplayed_prop !== "block") {
+    pricesArea_el.style.setProperty("display", "block");
+    let priceButton_el = document.getElementById("priceButton");
+    priceButton_el.classList.toggle("priceButtonToggled");
+  } else if (isDisplayed_prop === "block") {
+    pricesArea_el.style.setProperty("display", "none");
+    let priceButton_el = document.getElementById("priceButton");
+    priceButton_el.classList.remove("priceButtonToggled");
+  }
 }
 
 // Options Buttons

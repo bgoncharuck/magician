@@ -43,8 +43,25 @@ nav {
   margin-left: 2%;
 }
 
-.priceButton:hover, .priceButton:active, .priceButton:focus {
+.priceButton:hover, .priceButton:active, .priceButton:focus, .priceButtonToggled {
   color: #1565c0;
+}
+
+.pricesArea {
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 8px 16px -6px black;
+}
+
+.pricesArea>p {
+  display: flex;
+  justify-content: center;
+}
+
+.pricesArea>p>span {
+  margin: 1%;
 }
 
 .languageDropDown {
@@ -102,7 +119,7 @@ main {
 }
 
 .optionButton {
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
   margin-top: 1%;
   border: solid 1px black;
@@ -113,16 +130,14 @@ main {
 
 .optionButton:hover, .optionButton:active, .optionButton:focus, .optionButtonToggled {
   color: #1565c0;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid 1px #1565c0;
 }
 
 .optionInformation {
   display: none;
   margin: 0 auto;
-  width: 90%;
-  font-size: larger;
+  width: 94%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 8px 16px -6px black;
@@ -154,41 +169,5 @@ footer {
 }
 
 .licenceButton:hover, .licenceButton:active, .licenceButton:focus {
-  color: #1565c0;
-}
-
-.pricesWindow {
-  display: none;
-  z-index: 100;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-}
-
-.pricesArea {
-  margin: 0 auto;
-  width: 80%;
-  background: rgba(255, 255, 255, 1);
-  box-shadow: 1px 1px 3px 1px #1565c0;
-  padding-bottom: 1%;
-}
-
-.pricesArea>p {
-  display: flex;
-  justify-content: center;
-}
-
-.pricesArea>p>span {
-  margin: 1%;
-}
-
-.pricesWindowClose {
-  cursor: pointer;
-  text-align: center;
-}
-
-.pricesWindowClose:hover, .pricesWindowClose:active, .pricesWindowClose:focus {
   color: #1565c0;
 }
