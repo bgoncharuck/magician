@@ -120,7 +120,6 @@ function contentFill(language) {
   let departureButton_el = document.getElementById("departureButton");
   let departureInformation_el = document.getElementById("departureInformation");
   let cooperationButton_el = document.getElementById("cooperationButton");
-  let licenceButton_el = document.getElementById("licenceButton");
   let priceConsultationText_el = document.getElementById("priceConsultationText");
   let priceRemoteAccessText_el = document.getElementById("priceRemoteAccessText");
   let priceDepartureToYourLocationText_el = document.getElementById("priceDepartureToYourLocationText");
@@ -142,7 +141,6 @@ function contentFill(language) {
   departureButton_el.innerHTML = language.departureButton;
   departureInformation_el.innerHTML = language.departureInformation;
   cooperationButton_el.innerHTML = language.cooperationButton;
-  licenceButton_el.innerHTML = language.licenceButton;
   priceConsultationText_el.innerHTML = language.priceConsultationText;
   priceRemoteAccessText_el.innerHTML = language.priceRemoteAccessText;
   priceDepartureToYourLocationText_el.innerHTML = language.priceDepartureToYourLocationText;
