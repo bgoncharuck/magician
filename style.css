@@ -155,20 +155,3 @@ main {
   color: grey;
   border: solid 1px grey;
 }
-
-footer {
-  color: #424242;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding-top: 1%;
-}
-
-.licenceButton {
-  color: white;
-  cursor: pointer;
-}
-
-.licenceButton:hover, .licenceButton:active, .licenceButton:focus {
-  color: #ce93d8;
-}
