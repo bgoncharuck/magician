@@ -39,6 +39,7 @@ nav {
 }
 
 .priceButton {
+  display: none;
   cursor: pointer;
   margin-left: 2%;
 }
