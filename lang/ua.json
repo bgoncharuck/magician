@@ -2,7 +2,7 @@ let language_ukranian = {
   "title" : "Вареники Лінуксоїда",
   "priceButton": "Ціни",
   "languageButton": "UA",
-  "mainText": "Я чародій, який вирішує проблеми із дистрибутивами GNU/Linux.",
+  "mainText": "Я чародій, який вирішує проблеми із дистрибутивами Linux.",
   "contactsButton": "Контакти",
   "contactsInformation": "<a href='https://t.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>Пошта</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Телефон</a>: +38 068 0123457.",
   "consultationButton": "Консультація",

@@ -2,7 +2,7 @@ let language_russian = {
 "title" : "Магические Услуги",
 "priceButton": "Цены",
 "languageButton": "RU",
-"mainText": "Я волшебник, который решает проблемы с дистрибутивами GNU/Linux.",
+"mainText": "Я волшебник, который решает проблемы с дистрибутивами Linux.",
 "contactsButton": "Контакты",
 "contactsInformation": "<a href='https://t.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>Почта</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Телефон</a>: +38 068 0123457.",
 "consultationButton": "Консультация",

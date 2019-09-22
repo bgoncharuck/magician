@@ -2,7 +2,7 @@ let language_english = {
 "title": "Linux Milk Tea Support",
 "priceButton": "Prices",
 "languageButton": "US",
-"mainText": "I'm a magician who can solve issues with GNU/Linux distributions.",
+"mainText": "I'm a magician who can solve issues with Linux distributions.",
 "contactsButton": "Contacts",
 "contactsInformation": "<a href='https://t.me/danHoncharuk' target='_blank'>Telegram</a>: @danHoncharuk.<br><a href='mailto:bogdan.goncharuck@gmail.com?subject=LinuxSupport'>E-mail</a>: bogdan.goncharuck@gmail.com.<br><a href='tel:+380680123457'>Phone</a>: +38 068 0123457.",
 "consultationButton": "Consultation",
